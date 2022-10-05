@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="d25b8b67-2af7-490d-9cdc-d3f8029f17be"
+    Name="3eabcb62-1144-4969-94bc-c4ba571d57ce"
     Publisher="CN=Kirill"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="d25b8b67-2af7-490d-9cdc-d3f8029f17be" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="3eabcb62-1144-4969-94bc-c4ba571d57ce" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>CryptoCurrencies</DisplayName>
+    <DisplayName>СryptoСurrency</DisplayName>
     <PublisherDisplayName>Kirill</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="CryptoCurrencies.App">
+      EntryPoint="СryptoСurrency.App">
       <uap:VisualElements
-        DisplayName="CryptoCurrencies"
+        DisplayName="СryptoСurrency"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="CryptoCurrencies"
+        Description="СryptoСurrency"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
