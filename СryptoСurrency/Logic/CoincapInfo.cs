@@ -7,7 +7,7 @@ namespace СryptoСurrency.Logic
     {
         const string url = "https://api.coincap.io/v2/";
 
-        public static CoinList GetCoins(int? limit = 10, int? offset = 0)
+        public static CoinList GetAll(int? limit = 10, int? offset = 0)
         {
             string urlParameters = $"assets?limit={limit}&offset={offset}";
 
@@ -16,7 +16,7 @@ namespace СryptoСurrency.Logic
             return response;
         }
 
-        public static CoinList GetCoin(string id)
+        public static CoinList GetById(string id)
         {
             string urlParameters = $"assets?ids={id}";
 
@@ -25,7 +25,7 @@ namespace СryptoСurrency.Logic
             return response;
         }
 
-        public static CoinList SearchCoin(string name)
+        public static CoinList SearchByName(string name)
         {
             string urlParameters = $"assets?search={name}";
 
