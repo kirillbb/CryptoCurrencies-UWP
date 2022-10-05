@@ -22,9 +22,9 @@ namespace СryptoСurrency
             this.InitializeComponent();
             this.Suspending += OnSuspending;
 
-            //var response = CoincapResponse.GetCoins();
-            //var response = CoincapResponse.SearchCoin("doge");
-            //var response = CoincapResponse.GetCoin("bitcoin");
+            //var response = CoincapInfo.GetCoins();
+            //var response = CoincapInfo.SearchCoin("doge");
+            //var response = CoincapInfo.GetCoin("bitcoin");
         }
 
         /// <summary>
